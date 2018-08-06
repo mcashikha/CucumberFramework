@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Regression suite 1" >
+    <classes>
+     
+      <class name="com.Backoffice.testcases.SignUp"/>
+      <class name="com.Backoffice.testcases.SignIn"/>
+      <class name="com.Backoffice.testcases.AddProduct"/>
+      <class name="com.Backoffice.testcases.EditProduct"/>
+      <class name="com.Backoffice.testcases.AddToIpadLayout"/>
+      <class name="com.Backoffice.testcases.EmployeePin"/>
+	    <class name="com.Backoffice.testcases.POSTransaction"/>
+      <class name="com.Backoffice.testcases.POSRefund"/>
+      <class name="com.Backoffice.testcases.AddCustomer"/>
+      <class name="com.Backoffice.testcases.POSPreOrder"/>
+      <class name="com.Backoffice.testcases.POSPickUpPreOrder"/>
+      <class name="com.Backoffice.testcases.POSShiftReport"/>
+      <class name="com.Backoffice.testcases.AddStore"/>
+      <class name="com.Backoffice.testcases.AddEmployee"/>
+      <class name="com.Backoffice.testcases.AddRegister"/>
+
+
+
+
+    </classes>
+ </test>
+</suite> <!-- Suite -->

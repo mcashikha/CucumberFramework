@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MainRunner" project="CucumberFramework" tests="12" started="12" failures="0" errors="0" ignored="0">
+  <testsuite name="CucumberFramework.runner.MainRunner" time="32.618">
+    <testsuite name="Feature: Login into consumer account" time="32.618">
+      <testsuite name="Scenario: Login into consumer account with correct details" time="25.082">
+        <testcase name="Given Consumer navigates to kaodim website" classname="Scenario: Login into consumer account with correct details" time="5.73"/>
+        <testcase name="When Consumer clicks on Login button on Homepage" classname="Scenario: Login into consumer account with correct details" time="3.175"/>
+        <testcase name="And Consumer enters a valid username" classname="Scenario: Login into consumer account with correct details" time="3.098"/>
+        <testcase name="And Consumer clicks on Next" classname="Scenario: Login into consumer account with correct details" time="3.123"/>
+        <testcase name="And Consumer enters a valid password" classname="Scenario: Login into consumer account with correct details" time="3.081"/>
+        <testcase name="And Consumer clicks on Next" classname="Scenario: Login into consumer account with correct details" time="3.116"/>
+        <testcase name="Then Consumer should be able to successful Login" classname="Scenario: Login into consumer account with correct details" time="3.759"/>
+      </testsuite>
+      <testsuite name="Scenario: search a service request" time="4.118">
+        <testcase name="Given Consumer clicks on search icon" classname="Scenario: search a service request" time="0.001"/>
+        <testcase name="When Consumer input valid service type" classname="Scenario: search a service request" time="0.001"/>
+        <testcase name="And Consumer input valid service area" classname="Scenario: search a service request" time="0.001"/>
+        <testcase name="And Consumer clicks on Search" classname="Scenario: search a service request" time="0.001"/>
+        <testcase name="Then Consumer should be able to see submit request questionaaire" classname="Scenario: search a service request" time="4.114"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

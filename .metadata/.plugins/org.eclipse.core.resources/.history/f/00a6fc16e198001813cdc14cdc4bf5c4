@@ -1,0 +1,5 @@
+package CucumberFramework.pageObject;
+
+public class Consumer_page {
+
+}

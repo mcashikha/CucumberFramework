@@ -1,0 +1,9 @@
+package CucumberFramework.pageObject;
+
+public class Consumer_page {
+
+	public static void login(username,password)
+	{
+		
+	}
+}

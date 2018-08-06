@@ -1,0 +1,27 @@
+package CucumberFramework.pageObject;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+
+public class Consumer_page {
+
+	static WebDriver driver;
+	
+	public Consumer_page(WebDriver driver) {
+		Consumer_page.driver = driver;
+	}
+	
+	public static void login(String username,String password)
+	{
+		driver.get("https://staging.kaodim.com/");
+		driver.findElement(By.xpath("//a[text()='Login']")).click();
+		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("shikha@kaodim.com");
+		driver.findElement(By.xpath("//button[text()='Next']")).click();
+		driver.findElement(By.xpath(".//*[@id='password']")).sendKeys("12345");
+		driver.findElement(By.xpath(".//*[@id='password']")).sendKeys("12345");
+		WebElement userProfile = driver.findElement(By.xpath("//*[@href='/user/profile']"));
+		Assert.assertEquals(true, userProfile.isDisplayed());
+	}
+}

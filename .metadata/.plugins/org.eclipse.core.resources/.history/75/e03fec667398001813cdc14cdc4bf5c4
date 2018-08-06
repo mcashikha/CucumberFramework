@@ -1,0 +1,52 @@
+package CucumberFramework.stepFiles;
+
+import org.openqa.selenium.WebDriver;
+
+import cucumber.api.java.Before;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class Consumer {
+	
+	WebDriver driver;
+	
+	@Before
+	@Given("^Consumer navigates to kaodim website$")
+	public void consumer_navigates_to_kaodim_website() throws Throwable {
+	   System.out.println("Method1");
+	}
+
+	@And("^Consumer clicks on Login button on Homepage$")
+	public void consumer_clicks_on_Login_button_on_Homepage() throws Throwable {
+		   System.out.println("Method2");
+
+	}
+
+	@And("^Consumer enters a valid username$")
+	public void consumer_enters_a_valid_username() throws Throwable {
+		   System.out.println("Method3");
+
+	}
+
+	@And("^Consumer enters a valid password$")
+	public void consumer_enters_a_valid_password() throws Throwable {
+		   System.out.println("Method4");
+
+	}
+
+	@When("^Consumer Clicks on Login Button$")
+	public void consumer_Clicks_on_Login_Button() throws Throwable {
+		   System.out.println("Method5");
+
+	}
+
+	@Then("^Consumer should be able to successful Login page$")
+	public void consumer_should_be_able_to_successful_Login_page() throws Throwable {
+		   System.out.println("Method6");
+
+	}
+
+
+}
